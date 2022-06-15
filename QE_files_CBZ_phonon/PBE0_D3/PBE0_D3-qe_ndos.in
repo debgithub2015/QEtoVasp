@@ -1,0 +1,11 @@
+#run this with dos.x. third step. all the output files should be in the same folder
+
+&DOS
+   prefix = 'PBE0-D3'  ! This is very important for assigning further calculations based on this output
+   outdir = '.'        ! desired directory path 
+   ngauss = 0
+   degauss  = 0.0007349862 !in Ryd
+   Emin = 200   !in eV
+   Emax = 300   !in eV
+   DeltaE = 0.1 !in eV
+/ 
